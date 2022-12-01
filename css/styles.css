@@ -1,0 +1,153 @@
+/* General styles */
+
+:root {
+  --primary-background-color: #ffffff;
+  --primary-brand: #4d5ae5;
+  --dark: #2e2f42;
+  --primary-text-color: #434455;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+}
+
+h3 {
+  color: var(--dark);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+p {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+
+.logo {
+  color: var(--dark);
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.accent {
+  color: var(--primary-brand);
+}
+
+/*  HEADER */
+
+/* Navigation menu */
+
+.site-nav .link {
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:active {
+  color: var(--primary-brand);
+}
+
+/* Contacts */
+
+.contact {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--primary-brand);
+}
+
+/* INDEX.HTML */
+/* MAIN CONTENT */
+
+.section-title {
+  color: var(--dark);
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* Hero */
+
+.hero-title {
+  /* temporary background color because text color is white */
+  background-color: navy;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: var(--primary-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.04em;
+
+  width: 170px;
+  height: 51px;
+}
+
+.btn:active {
+  background-color: #404bbf;
+}
+
+/* Our Team */
+.team {
+  background-color: #f4f4fd;
+}
+
+/* FOOTER */
